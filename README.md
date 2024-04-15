@@ -11,7 +11,7 @@ author: Yuqing Qiao
 - [Word Embedding Models](#word-embedding-models)
   - [Skip-gram and Continuous Bag of Words (CBOW)](#skip-gram-and-continuous-bag-of-words-cbow)
   - [Visualization of Word Embeddings](#visualization-of-word-embeddings)
-
+- [BERT](#bert)
 ## Introduction
 This project aims to implement several natural language processing (NLP) techniques from scratch, including Byte Pair Encoding (BPE) for tokenization, sentiment analysis with multiple classifiers, emotion detection using TensorFlow, and word embedding models like Skip-gram and CBOW. I also explore the visualization of classifier decisions and word embeddings to understand the underlying patterns in data.
 
@@ -43,3 +43,7 @@ We explore word embeddings through self-implemented Skip-gram and Continuous Bag
 ### Visualization of Word Embeddings
 - We visualize word embeddings using PCA and cosine similarity to understand the semantic relationships of word embedding captured by the Skip-gram and CBOW models.
 - [Word Embeddings Visualization Folder](/word%20embedding/Skipgram&CBOW.ipynb)
+
+## LLM
+### BERT  
+- [BERT Folder](/BERT/BERT.ipynb)
