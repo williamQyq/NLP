@@ -1,5 +1,6 @@
-# Put My Foot Wet in NLP
-author: Yuqing Qiao
+# NLP && LLM
+author: Yuqing Qiao  
+date: June 2024
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -11,7 +12,10 @@ author: Yuqing Qiao
 - [Word Embedding Models](#word-embedding-models)
   - [Skip-gram and Continuous Bag of Words (CBOW)](#skip-gram-and-continuous-bag-of-words-cbow)
   - [Visualization of Word Embeddings](#visualization-of-word-embeddings)
-- [BERT](#bert)
+- [LLM](#llm)
+  - [BERT](#bert)
+  - [Transformer](#transformer)
+
 ## Introduction
 This project aims to implement several natural language processing (NLP) techniques from scratch, including Byte Pair Encoding (BPE) for tokenization, sentiment analysis with multiple classifiers, emotion detection using TensorFlow, and word embedding models like Skip-gram and CBOW. I also explore the visualization of classifier decisions and word embeddings to understand the underlying patterns in data.
 
@@ -31,7 +35,7 @@ Performed sentiment analysis on movie reviews, aiming to classify them as positi
 - [Classifiers Visualization Folder](/classifier/ArticleClassifier&EmotionPrediction.ipynb)
 
 ## Emotion Detection with TensorFlow
-We implement term frequency (TF) and term frequency-inverse document frequency (TF-IDF) from scratch and use them to train a TensorFlow model for classifing six different emotions in corpus.
+We implement term frequency (TF) and term frequency-inverse document frequency (TF-IDF) from scratch and use them to train a TensorFlow model for classifying six different emotions in corpus.
 - [Emotion Detection Implementation Folder](/classifier/ArticleClassifier&EmotionPrediction.ipynb)
 
 ## Word Embedding Models
@@ -45,5 +49,9 @@ We explore word embeddings through self-implemented Skip-gram and Continuous Bag
 - [Word Embeddings Visualization Folder](/word%20embedding/Skipgram&CBOW.ipynb)
 
 ## LLM
-### BERT  
+
+### BERT
 - [BERT Folder](/BERT/BERT.ipynb)
+
+### Transformer
+- [Transformer Folder](/Transformer/PA2_Yuqing_(Transformer).ipynb)
